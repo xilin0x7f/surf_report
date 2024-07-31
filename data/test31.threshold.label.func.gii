@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[data/palmResT2_tfce_tstat_mfwep_m1_mulT.func.gii:
+/opt/workbench/bin_linux64/../exe_linux64/wb_command -metric-math 'x*y/abs(y)' palmResT2_tfce_tstat_mfwep_m1_mulT.func.gii -var x palmResT2_tfce_tstat_mfwep_m1.func.gii -var y palmResT2_tfce_tstat_m1.func.gii
+
+C:\AppsData\OneDrive\data\templateflow\tpl-fsLR\tpl-fsLR_hemi-L_den-32k_desc-vaavg_midthickness.shape.func.gii:
+/opt/workbench/bin_linux64/../exe_linux64/wb_command -metric-math 'x*1' tpl-fsLR_hemi-L_den-32k_desc-vaavg_midthickness.shape.func.gii -var x tpl-fsLR_hemi-L_den-32k_desc-vaavg_midthickness.shape.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: a4824b22b46b2d5afa3e543a483f73faea27bcf5
+Commit Date: 2024-06-14 15:38:26 -0500
+Compiler: cl.exe (C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64)
+Compiler Version: 19.0.24215.1
+Compiled Debug: NO
+Operating System: Windows
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -metric-find-clusters C:\AppsData\OneDrive\data\templateflow\tpl-fsLR\tpl-fsLR_den-32k_hemi-L_midthickness.surf.gii data/palmResT2_tfce_tstat_mfwep_m1_mulT.func.gii 0.5 0 data\test31.threshold.label.func.gii -less-than -corrected-areas C:\AppsData\OneDrive\data\templateflow\tpl-fsLR\tpl-fsLR_hemi-L_den-32k_desc-vaavg_midthickness.shape.func.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[D:/AppsData/PyCharm/surf_report]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[cortex]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3Itq20AQBdD8WX+tnx5KKRg3jrXaxzxyBg6FtN65o1Us2Un98fH718d//tTjn6Mq1515K8laP33+K2WuOtVtpu6zVKwOc1SfQfbzVTF3tfNc1vVV4RzInjFzvqzZMt67Zbs/zpQny2vYDDneZdidJXvvHRki+p7uOdJvtudor7v97vQZ7XW3x9U+Gdd+12PHurNrPq+9cr1VawExdj2XXe1ztaKPEwBkV/W6WfGaX+1epdL9VZX7wpGqkDEiZ9Z8M5U1165s2TLJk/ecjj4WK6ra7Csqe8+T/U71OtFnd4+d6+9ae1XtzLpyvVVrZVhD9a7Z6/9pd2apOGdXnc5FAAAAAADI6Pk9953vyXvff/9e7jyuI1VlrtHaNVfUPKtnOqFqboATqj1HVssLxPOcAbVEXOujekYfawB6y3CtuVunc43+/eysV9eqtm/vMo8e0ywzfZd3ZP5qM3U496LmmJ0n2xx3Z8k2w51Zss5wdZ6v/l103qszVMg9ugdZVctcNW90juqyH8PM52TWbBlzZcqUIcPjMVl5bO+uuSNH1L5k2d9T+z+zT117zp6LGXtF9Nl93E6cC6zdp1d1ZZ27j53tveLxqx43+pg7e0RP9hkAAAAAAAAAAAAAAAC44s7/v4MVup97XeeCEzp8/1SfoXL+ytkBAAAAforO7+F0na3yXK9+HlVxpu8+s7TSPFcqOqM56szQOX90tm65q2S+UtEZK2Z9N0d0BgAAgEy+ek336mvRWQEAAAAAAJjX+ec+XWer9HuaozN1mavTPF1m6TJDdAYAAP7KcG/W5V6dXE6eV6d6neoRvXfs36uvKmqd2TVW9Y/eTwAAAAAAAKhupv49fnefmXwAP0n1578Oz+GV81fNXjF3tcyV8lbLGp2hcsbse501W7ZcGfcxU54sWTLkiM4Q2T+qd0Tf6H0GIM6ra8Dz1x/vH69U9FwAAAAAAAAAAAAAAAAAAAAAAAAAzKv4+XKvPk+v0ufm3anozKvmyDbLbMkfk13uM5mr5Y3Ivaqq5NyZ9WRlzzeaMbqy5nqujJmUUkoppVSPOvk6lDmd967jXN1m6jJPp++jDnNUn6Fy/qrZK+aulrlq3ugcV7NGZ+iQEQCAelbct8+useLx0ccRAAAAAAAAAAAAAACgv0+NMwNR</Data>
+</DataArray>
+</GIFTI>

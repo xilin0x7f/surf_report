@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="3">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexRight]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[top3.R.thickness.func.gii:
+/opt/workbench/bin_linux64/../exe_linux64/wb_command -cifti-separate top3.thickness.dscalar.nii COLUMN -metric CORTEX_LEFT top3.L.thickness.func.gii -metric CORTEX_RIGHT top3.R.thickness.func.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: a4824b22b46b2d5afa3e543a483f73faea27bcf5
+Commit Date: 2024-06-14 15:38:26 -0500
+Compiler: g++ (/usr/bin)
+Compiler Version: 4.8.4
+Compiled Debug: NO
+Operating System: Linux
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/opt/workbench/bin_linux64/../exe_linux64/wb_command -metric-find-clusters tpl-fsLR_den-32k_hemi-R_midthickness.surf.gii top3.R.thickness.func.gii 4.85 0 top3.R.thickness.threshold.func.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/mnt/d/AppsData/PyCharm/surf_report/data]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[100206_Thickness]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztz8EJgDAQRNF0li1tS7FUkSgInjUmeQ/+faYUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1pW1BTCtOIPFRTz7u/vOEfcDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADC2rK0ZzfoLAAAAAAC+ktF7AQAAAIctei8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYV0bvBe85vl0BAAAAAMC6diowDtw=</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[100307_Thickness]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt28sNwjAQBNCUQAmUQAneDiiBEiiBI0dKSimUgpCJAEEEEh/L9nvSnHfmkkOUDAMAAAAAAADQhjHl1OyYSjf4nVa3tboLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOhIXFK6AwAAQCcWkQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwiWWUbgAAAADwPauG3nWct7S0BwAAoHcprvn3zZbvAQAAAAAAAAAAAAAAAMAr67jPrU3F/6o92wMwZxuPmewqepbM9Z9So5q7AwAAAAAAAAD0YF/4246S93u9DVCrMZVuAAAAAAAAAAAAAFCnQ+QAALznBIKEIF0=</Data>
+</DataArray>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[100408_Thickness]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztzrEJACAMAMGsli0tLR3TBbQTNHIH338EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9pefsAeEnPda/a/VZ4BwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIpG3j4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCMCWJZDvI=</Data>
+</DataArray>
+</GIFTI>

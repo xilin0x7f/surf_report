@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[data/palmResT2_tfce_tstat_mfwep_m1.func.gii:
+/opt/workbench/bin_linux64/../exe_linux64/wb_command -metric-math x==1 /mnt/c/AppsData/OneDrive/data/templateflow/tpl-fsLR/tpl-fsLR_den-32k_hemi-L_desc-cortex.label.func.gii -var x /mnt/c/AppsData/OneDrive/data/templateflow/tpl-fsLR/tpl-fsLR_den-32k_hemi-L_desc-cortex.label.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 2.0.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: a4824b22b46b2d5afa3e543a483f73faea27bcf5
+Commit Date: 2024-06-14 15:38:26 -0500
+Compiler: cl.exe (C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/amd64)
+Compiler Version: 19.0.24215.1
+Compiled Debug: NO
+Operating System: Windows
+Compiled with OpenMP: YES
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -metric-find-clusters C:\AppsData\OneDrive\data\templateflow\tpl-fsLR\tpl-fsLR_den-32k_hemi-L_midthickness.surf.gii data/palmResT2_tfce_tstat_mfwep_m1.func.gii 0.5 0 data\test1.threshold.label.func.gii -corrected-areas C:\AppsData\OneDrive\data\templateflow\tpl-fsLR\tpl-fsLR_hemi-L_den-32k_desc-vaavg_midthickness.shape.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[D:/AppsData/PyCharm/surf_report]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[cortex]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3Q1u4jAQBtDcbOdoPcoedVVVVCwQcPyDx+E9aaQKsP1NEogood22b19/tv/FBgAAAAAAACwiYr8AAAA+Tdb3QhlzZcuULQ8AAJ/j+7tVNXVkXsbpuc8A4JGVzyOrngdXzQwAAAArefY79NrPTlqqZe1PdPSzqtH7rWbN1v6zHpOZe+q1nz+tn9l5W4+tDH30snoPK+dfMfvMzCvmbrFS1pF5R7idO2PG0h6y5ivJOJts/TLN3mbZcmXJk2Gfzc4w8zVy9jlu5rZ+h1nrAXAu2d9T/YrKqtTy/rh5Ox7oL/3+i/pK29uL3Ev2VZi9tqcpdrK29DNV1FW6Pr7F8UrXw0WUV9oersV+pTyWHon7Svmc3hPby9zpXm+vci+VeVsrb8+sI/vokXP0Nm/JWHNcHO2nJl/LsXBkbNZsmTJdxr8r06j9cpY8WbLMzjFjfaWUUvfVeo5oPf++Ujtub+zRMT0f3/NxLffv3Ve6XT9SzA4AAAAAAAAAAAAAAAAAZNXyPTjo5ezH4Nn7Oosz9bN6L2d4PVi9hzPlX8nquVeyWl4AAABYTmzlfwOv9HEzxU6VjMssCmpvXEZRUddjs4nGyiI6VAbRoWaLDpVFVFY2cfPzs8osnlRG8aIyiYLKIgpqBTE7AAAAQA6Xa+ze8X+mAAAAevuKn8rmkku2ctnyAADAI3/jvpYWswMMFLMDDBLb+XqL7Vx9xXaefmI7Ry+xnaMHAABSyHB95OxrNUdcM1o6T8+1j8zT41rZo3PUrPnosa3rjbhuOPs6I9c4auR126OuBT86Z+1z/3bOV2s9e160HCsZ5inZTiX7pOVYLplzb99+omefLezd9+j229uW/8wCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+BXxUzPn6DEeAAAAAAAAAAAAAACA0f4B9o95Ag==</Data>
+</DataArray>
+</GIFTI>
